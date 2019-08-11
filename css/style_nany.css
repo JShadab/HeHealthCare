@@ -66,7 +66,14 @@ p {
 margin: 0;
 padding: 0;
 letter-spacing:0px;
-font-family: 'Libre Franklin', sans-serif;
+/* font-family: 'Libre Franklin', sans-serif; */
+/* font-family: Abhaya Libre,serif; */
+font-family: Mukta,sans-serif;
+}
+p.style1{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6f6e65 !important;
 }
 ul {
 margin: 0;
@@ -206,8 +213,9 @@ nav ul li ul li:hover {
 /*.menu li.active a,.menu li a:hover{border-bottom: 1px solid #d4d4d4;}*/
 
 .menu li a:hover {
+    background: rgb(4, 22, 189);
   opacity: 0.8;
-  color: #000 ;
+  color: white ;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -227,6 +235,7 @@ nav ul ul {
     padding: 10px;
     border-radius: 4px;
     box-shadow: -1px 1px 5px black;
+    
 }
 /* Display Dropdowns on Hover */
 
@@ -259,11 +268,14 @@ nav ul ul li a {
     display: block;
     font-size: 15px;
     margin: 5px;
+    
 }
 
 nav ul ul li a:hover {
     color: #000;
     background: #fff;
+    
+    
 }
 /* Second, Third and more Tiers	
 * We move the 2nd and 3rd etc tier dropdowns to the left
@@ -287,6 +299,7 @@ li>a:only-child:after {
 a.reqe-button {
   border: 2px solid rgba(255, 255, 255, 0.35);
   border-radius: 4px;
+  
 }
 
 
@@ -492,31 +505,54 @@ background: url(../images/image2.jpg) no-repeat 0px 0px;
 }
 
 .company-icon{
-    background: url(../images/logo1.png) no-repeat 0px 0px;
+  /* background: url(../images/logo1.png) no-repeat 0px 0px; */
     width: 70%;
     height: 70px;
     background-size: contain;
 }
 
 .slider-img {
-    padding: 15em 0em 0 4em;
+    padding: 12em 0em 0 2em;
 }
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+hr.style-three {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(187, 0, 0, 0.75), rgb(255, 255, 255));
+}
+hr.style-four {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(28, 0, 187, 0.75), rgb(255, 255, 255));
+}
+
+h2.aboutUs-title{
+
+}
+
 .slider-info h4 {
-    color: #fff;
+    font-family: Abhaya Libre,serif;
+    color: #323e48;
+    font-weight: 400;
     font-size: 2.5em;
     text-transform: capitalize;
-    font-weight: 600;
     letter-spacing: 1px;
-    text-shadow: 1px 0px 1px #7f7a7a;
+    /* text-shadow: 1px 0px 1px #7f7a7a; */
 }
 .slider-info {
-    width: 27%;
-    background: #ffb8e9;
-    padding: 7em 3em;
+    width: 35%;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 10px !important;
     text-align: center;
     border-radius: 50%;
-    box-shadow: 0 0 6px 0px #b9b9b9;
-	box-sizing: border-box;
+    /* box-shadow: 0 0 6px 0px #b9b9b9;
+	box-sizing: border-box; */
 }
 .outs_more-buttn a {
     font-size: 14px;
@@ -526,23 +562,50 @@ background: url(../images/image2.jpg) no-repeat 0px 0px;
     text-transform: capitalize;
     display: inline-block;
     letter-spacing: 1px;
-    background-color: #f8a640;
+    /* background-color: #f8a640; */
+    background-color: #f36f21;
     outline: none;
     border-radius: 4px;
     padding: 8px 12px;
     border: none;
 }
 .outs_more-buttn a:hover{
-background: #000;
+/* background: #000; */
+background: #d3431c;
 }
 /*--//banner--*/
 /*--//about--*/
 .about-wthree-grids {
-    padding: 2.5em 2em;
+    padding: 1em 0.5em;
     background: #f5f5f5;
     box-shadow: -3px 3px 7px #e0e0e0;
-    border: #ffb8e9 solid 2px;
+    border: rgb(217, 4, 4) solid 2px;
+    border-radius: 2%;
 }
+
+.about-wthree-grids.blue {
+    padding: 1em 0.5em;
+    background: #f5f5f5;
+    box-shadow: -3px 3px 7px #e0e0e0;
+    border: rgb(0, 3, 190) solid 2px;
+    border-radius: 2%;
+}
+
+.about-wthree-grids.white {
+    padding: 1em 0.5em;
+    background: #f5f5f5;
+    box-shadow: -3px 3px 7px #e0e0e0;
+    border: rgb(247, 238, 238) solid 2px;
+    border-radius: 2%;
+}
+
+
+h4.text{
+    color:  #262c38;
+    font-size: 24px;
+    font-family: Mukta,sans-serif;
+}
+
 .about-icon span{
     color: #000;
     line-height: 73px;
@@ -788,7 +851,7 @@ footer {
     min-height: 760px;
 }	
 .slider-img {
-    padding: 14em 0em 0 4em;
+    padding: 9em 0em 0 4em !important;
 }
 h3.title {
     font-size: 38px;
@@ -1064,6 +1127,8 @@ h3.title {
 .footer-javawithshadab-head h2 a {
     font-size: 26px;
 }
+
+
 }
 @media(max-width:736px){
 .slider-info {

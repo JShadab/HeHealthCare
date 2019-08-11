@@ -562,15 +562,17 @@ label {
 h3.tittle {
 	color: #262c38;
 	margin: 0;
-	font-size: 3em;
-	font-weight: 700;
+	font-size: 2.5em;
+	font-weight: 400;
 	letter-spacing: 1px;
 	text-align: center;
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+	font-family: Abhaya Libre,serif !important;
+	/* text-shadow: 0 1px 2px rgba(0, 0, 0, 0.33); */
 }
 
+
 .inner_sec_grids_info_w3ls {
-	margin-top: 4em;
+	margin-top: 2.3em;
 }
 
 .banner-bottom,
@@ -1082,14 +1084,15 @@ input[type="file"] {
 }
 
 h3.tittle.two {
-	color: #fff;
+	color: black;
 }
 
 
 /*-- //login --*/
 
 .candidate_cv {
-	background: url(../images/candidate.jpg) no-repeat 0px 0px;
+	/* background: url(../images/healthcare/image1.jpg) no-repeat 0px 0px; */
+	background-color:  #efefef;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1103,7 +1106,8 @@ h3.tittle.two {
 /*-- /testimonials_section--*/
 
 .testimonials_section {
-	padding: 6em 0 8em 0;
+	padding: 2.5em 0 2.5em 0;
+	background-color: #efefef;
 }
 
 .carousel.slide.two .item {
@@ -1128,6 +1132,11 @@ h3.tittle.two {
 }
 
 .testimonials_grid_wthree i.fa.fa-quote-left {
+	color: #fcb314;
+	font-size: 2em;
+}
+
+.testimonials_grid_wthree i.fa.fa-quote-right {
 	color: #fcb314;
 	font-size: 2em;
 }
@@ -3943,3 +3952,8 @@ ul.social-icons3.two li a {
 
 
 /*--//responsive--*/
+
+.service-menu {
+	width: 250px
+	;
+  }
